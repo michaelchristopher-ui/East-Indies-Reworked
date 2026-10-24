@@ -1,0 +1,25 @@
+state={
+	id=1088
+	name="STATE_1088"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		add_core_of = EIS
+		add_core_of = SKA
+		victory_points = { # Maumere
+			7321 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		7321
+	}
+	manpower=90000
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 1.000
+}

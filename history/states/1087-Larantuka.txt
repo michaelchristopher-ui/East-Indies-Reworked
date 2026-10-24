@@ -1,0 +1,25 @@
+state={
+	id=1087
+	name="STATE_1087"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		add_core_of = EIS
+		add_core_of = LRT
+		victory_points = { # Larantuka
+			12151 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		12151 13393
+	}
+	manpower=120000
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 1.000
+}

@@ -8,6 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
+			desc = SKA_thomas_ximenes_da_silva_desc
 			ideology = despotism
 			traits = {
 				SKA_heir_of_the_lusitanian_rajas

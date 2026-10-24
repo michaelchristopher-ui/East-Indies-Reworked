@@ -1,0 +1,19 @@
+characters = {
+
+	MGR_alexander_baroek = {
+		name = MGR_alexander_baroek
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				MGR_king_over_the_principalities
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

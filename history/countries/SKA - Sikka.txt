@@ -1,0 +1,59 @@
+﻿capital = 1088 #Maumere
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_trucks = 1
+	transport = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.4.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 10
+	fascism = 5
+	communism = 5
+	neutrality = 80
+}
+
+add_ideas = {
+	ASEAN_agrarian_society_1
+}
+
+set_convoys = 5
+set_stability = 0.6
+set_war_support = 0.2
+
+recruit_character = SKA_thomas_ximenes_da_silva
+recruit_character = SKA_kapitang_moor
+recruit_character = SKA_kapitang_salaf
+recruit_character = SKA_kapitang_alveris
+recruit_character = SKA_kapitang_guarda
+recruit_character = SKA_kapitang_panteru
+recruit_character = SKA_moang_tuan_tanah
+recruit_character = SKA_moang_kabu
+recruit_character = SKA_monjeru
+recruit_character = SKA_costa_de_ornay
+
+# The ten sitting principalities of Sikka
+set_country_flag = SKA_principality_buang_bali
+set_country_flag = SKA_principality_maget_ili
+set_country_flag = SKA_principality_mekeng
+set_country_flag = SKA_principality_soget
+set_country_flag = SKA_principality_keupung
+set_country_flag = SKA_principality_darabogar
+set_country_flag = SKA_principality_kei_timu
+set_country_flag = SKA_principality_kroa
+set_country_flag = SKA_principality_muhang
+set_country_flag = SKA_principality_wodong
+set_variable = { FLR_total_lords = 10 }
+set_variable = { FLR_loyal_lords = 10 }
+FLR_update_lords = yes
+add_dynamic_modifier = { modifier = SKA_ten_principalities }

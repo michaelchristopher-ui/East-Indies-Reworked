@@ -1,0 +1,226 @@
+characters = {
+
+	SKA_thomas_ximenes_da_silva = {
+		name = SKA_thomas_ximenes_da_silva
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				SKA_heir_of_the_lusitanian_rajas
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SKA_kapitang_moor = {
+		name = SKA_kapitang_moor
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SKA_kapitang_moor
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_kapitang_salaf = {
+		name = SKA_kapitang_salaf
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SKA_kapitang_salaf
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				captain_of_industry
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_kapitang_alveris = {
+		name = SKA_kapitang_alveris
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SKA_kapitang_alveris
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				prince_of_terror
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_monjeru = {
+		name = SKA_monjeru
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SKA_monjeru
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				compassionate_gentleman
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_kapitang_panteru = {
+		name = SKA_kapitang_panteru
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = SKA_kapitang_panteru
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_kapitang_guarda = {
+		name = SKA_kapitang_guarda
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SKA_kapitang_guarda
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_moang_tuan_tanah = {
+		name = SKA_moang_tuan_tanah
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SKA_moang_tuan_tanah
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_moang_kabu = {
+		name = SKA_moang_kabu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = SKA_moang_kabu
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				navy_chief_maneuver_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SKA_costa_de_ornay = {
+		name = SKA_costa_de_ornay
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = SKA_costa_de_ornay
+			allowed = {
+				original_tag = SKA
+			}
+			traits = {
+				military_theorist
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

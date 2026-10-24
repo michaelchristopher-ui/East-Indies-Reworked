@@ -254,6 +254,42 @@ leader_traits = {
 		trade_opinion_factor = 0.075
 	}
 
+	LRT_regent_of_reinha_rosari = { #Antonius Belantran de Rosari
+		sprite = 13
+		random = no
+
+		stability_factor = 0.05
+		political_power_gain = -0.1
+	}
+
+	LRT_lord_of_the_semana_santa = { #Lorenzo III Diaz Vieira Godinho
+		sprite = 13
+		random = no
+
+		stability_factor = 0.1
+		neutrality_drift = 0.05
+		war_support_factor = -0.05
+	}
+
+	SKA_heir_of_the_lusitanian_rajas = { #Don Thomas Ximenes da Silva
+		sprite = 13
+		random = no
+
+		political_power_gain = 0.05
+		trade_opinion_factor = 0.1
+		improve_relations_maintain_cost_factor = -0.2
+		war_support_factor = -0.05
+	}
+
+	MGR_king_over_the_principalities = { #Alexander Baroek
+		sprite = 13
+		random = no
+
+		political_power_gain = 0.1
+		neutrality_drift = 0.03
+		stability_factor = -0.05
+	}
+
 	coi_hart = { #Director of Economic Affairs - GHC Hart (weakened version)
 		sprite = 10
 		random = no

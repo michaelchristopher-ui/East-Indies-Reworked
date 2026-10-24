@@ -1,0 +1,38 @@
+characters = {
+
+	LRT_antonius_belantran_de_rosari = {
+		name = LRT_antonius_belantran_de_rosari
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			desc = LRT_antonius_belantran_de_rosari_desc
+			ideology = despotism
+			traits = {
+				LRT_regent_of_reinha_rosari
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	LRT_lorenzo_iii = {
+		name = LRT_lorenzo_iii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			desc = LRT_lorenzo_iii_desc
+			ideology = despotism
+			traits = {
+				LRT_lord_of_the_semana_santa
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

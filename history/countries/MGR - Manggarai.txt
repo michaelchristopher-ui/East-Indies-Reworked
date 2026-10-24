@@ -1,0 +1,40 @@
+﻿capital = 1089 #Ruteng
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_trucks = 1
+	transport = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.4.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 10
+	fascism = 5
+	communism = 5
+	neutrality = 80
+}
+
+add_ideas = {
+	ASEAN_agrarian_society_1
+}
+
+set_convoys = 5
+set_stability = 0.6
+set_war_support = 0.2
+
+recruit_character = MGR_alexander_baroek
+
+# The 38 principalities, many of them recently equals of the raja
+set_variable = { FLR_total_lords = 38 }
+set_variable = { FLR_loyal_lords = 20 }
+FLR_update_lords = yes
+add_dynamic_modifier = { modifier = MGR_the_38_principalities }

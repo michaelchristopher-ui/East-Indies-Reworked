@@ -151,8 +151,6 @@
 
  MGR_win_over_the_principalities:0 "Win Over the Karaeng of the Dalu Principalities"
  MGR_win_over_the_principalities_desc:0 "Gifts, marriages and appointments bring the karaeng of a few more dalu principalities under the raja's authority."
- MGR_reconcile_with_cibal:0 "Reconcile with Cibal"
- MGR_reconcile_with_cibal_desc:0 "Cibal never accepted the house of Todo as its master. Making peace with Cibal brings the karaeng of its allied dalu principalities along with it."
 
  SKA_kapitang_moor:0 "Kapitang Moor"
  SKA_kapitang_salaf:0 "Kapitang Salaf"
@@ -163,3 +161,12 @@
  SKA_moang_kabu:0 "Moang Kabu"
  SKA_monjeru:0 "Monjeru"
  SKA_costa_de_ornay:0 "Costa de Ornay"
+
+ FLR_catholic_state:0 "Catholic Kingdom"
+ FLR_catholic_state_desc:0 "Catholicism is the faith of the court and the realm, carried here by Portuguese traders and Dominican friars. The church and the raja stand together."
+
+ SKA_paulus_centis_ximenes_da_silva:0 "Don Paulus Centis Ximenes da Silva"
+ SKA_paulus_centis_ximenes_da_silva_desc:0 "Moang Ratu, Raja of Sikka from 1954, successor to Don Thomas Ximenes da Silva."
+ flr_swapraja.2.t:0 "Don Paulus Becomes Raja of Sikka"
+ flr_swapraja.2.d:0 "On 18 May 1954 Don Paulus Centis Ximenes da Silva was installed as Moang Ratu, Raja of Sikka, succeeding Don Thomas Ximenes da Silva. The Ten Sitting Lords gathered to witness the new raja take the throne."
+ flr_swapraja.2.a:0 "Long live Moang Ratu Paulus!"

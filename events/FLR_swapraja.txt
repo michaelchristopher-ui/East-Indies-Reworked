@@ -29,3 +29,30 @@ country_event = { #Larantuka 1 - End of the regency
 		add_stability = 0.05
 	}
 }
+
+country_event = { #Sikka 1 - Don Paulus succeeds
+	id = flr_swapraja.2
+	title = flr_swapraja.2.t
+	desc = flr_swapraja.2.d
+
+	picture = GFX_report_event_generic_sign_treaty
+
+	is_triggered_only = no
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = SKA
+		date > 1954.5.18
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { #Long live Moang Ratu Paulus!
+		name = flr_swapraja.2.a
+		recruit_character = SKA_paulus_centis_ximenes_da_silva
+		promote_character = SKA_paulus_centis_ximenes_da_silva
+		retire_character = SKA_thomas_ximenes_da_silva
+	}
+}

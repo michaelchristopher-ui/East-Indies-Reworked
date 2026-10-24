@@ -1,0 +1,58 @@
+FLR_category_swapraja = {
+	icon = generic_independence
+
+	allowed = {
+		OR = {
+			original_tag = INS
+			original_tag = EIS
+		}
+	}
+
+	priority = {
+		base = 10
+	}
+
+	visible = {
+		OR = {
+			owns_state = 1087
+			owns_state = 1088
+			owns_state = 1089
+		}
+	}
+}
+
+LRT_category_demon_lewo_pulo = {
+	icon = generic_political_discourse
+
+	allowed = {
+		original_tag = LRT
+	}
+
+	priority = {
+		base = 10
+	}
+}
+
+SKA_category_ten_principalities = {
+	icon = generic_political_discourse
+
+	allowed = {
+		original_tag = SKA
+	}
+
+	priority = {
+		base = 10
+	}
+}
+
+MGR_category_the_38_principalities = {
+	icon = generic_political_discourse
+
+	allowed = {
+		original_tag = MGR
+	}
+
+	priority = {
+		base = 10
+	}
+}

@@ -436,23 +436,4 @@ MGR_category_the_38_principalities = {
 			base = 1
 		}
 	}
-
-	MGR_reconcile_with_cibal = {
-		icon = generic_political_discourse
-		cost = 75
-		fire_only_once = yes
-
-		available = {
-			check_variable = { FLR_loyal_lords < 38 }
-		}
-
-		complete_effect = {
-			add_to_variable = { FLR_loyal_lords = 5 }
-			FLR_update_lords = yes
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
 }

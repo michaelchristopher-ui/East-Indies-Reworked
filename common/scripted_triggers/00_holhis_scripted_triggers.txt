@@ -520,3 +520,10 @@ suitable_democratic_major_in_asia = {
 		NOT = { has_war_with = ROOT } 
 	}
 }
+is_catholic_nation = {
+	OR = {
+		original_tag = LRT
+		original_tag = SKA
+		original_tag = MGR
+	}
+}

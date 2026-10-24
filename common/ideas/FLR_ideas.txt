@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+
+		FLR_catholic_state = {
+			allowed = {
+				OR = {
+					original_tag = LRT
+					original_tag = SKA
+					original_tag = MGR
+				}
+			}
+
+			picture = generic_king_handled
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				communism_drift = -0.02
+			}
+		}
+	}
+}

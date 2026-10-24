@@ -25,6 +25,7 @@ set_popularities = {
 
 add_ideas = {
 	ASEAN_agrarian_society_1
+	FLR_catholic_state
 }
 
 set_convoys = 5

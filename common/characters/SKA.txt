@@ -235,7 +235,7 @@ characters = {
 		country_leader = {
 			desc = SKA_paulus_centis_ximenes_da_silva_desc
 			ideology = despotism
-			expire="2100.1.1.1"
+			expire="1965.1.1.1"
 			id=-1
 		}
 	}

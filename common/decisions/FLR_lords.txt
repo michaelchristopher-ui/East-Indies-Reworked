@@ -1,0 +1,458 @@
+LRT_category_demon_lewo_pulo = {
+
+	LRT_bind_kakang_hadung = {
+		icon = generic_civil_support
+		cost = 50
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_hadung }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_hadung
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_boleng = {
+		icon = generic_civil_support
+		cost = 50
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_boleng }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_boleng
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_lamalera = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_lamalera }
+		}
+
+		available = {
+			has_country_flag = LRT_kakang_hadung
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_lamalera
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_horowura = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_horowura }
+		}
+
+		available = {
+			has_country_flag = LRT_kakang_boleng
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_horowura
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_pamakayo = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_pamakayo }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_pamakayo
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_lewolein = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_lewolein }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_lewolein
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_wobo = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_wobo }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_wobo
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_mudakaputu = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_mudakaputu }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_mudakaputu
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_lewingo = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_lewingo }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_lewingo
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	LRT_bind_kakang_lewotobi = {
+		icon = generic_civil_support
+		cost = 25
+
+		visible = {
+			NOT = { has_country_flag = LRT_kakang_lewotobi }
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+			set_country_flag = LRT_kakang_lewotobi
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+
+SKA_category_ten_principalities = {
+
+	SKA_seat_principality_buang_bali = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_buang_bali }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_buang_bali
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_maget_ili = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_maget_ili }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_maget_ili
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_mekeng = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_mekeng }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_mekeng
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_soget = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_soget }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_soget
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_keupung = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_keupung }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_keupung
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_kroa = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_kroa }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_kroa
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_darabogar = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_darabogar }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_darabogar
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_kei_timu = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_kei_timu }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_kei_timu
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_muhang = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_muhang }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_muhang
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	SKA_seat_principality_wodong = {
+		icon = generic_civil_support
+		cost = 35
+
+		visible = {
+			NOT = { has_country_flag = SKA_principality_wodong }
+		}
+
+		complete_effect = {
+			set_country_flag = SKA_principality_wodong
+			add_to_variable = { FLR_loyal_lords = 1 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+
+MGR_category_the_38_principalities = {
+
+	MGR_win_over_the_principalities = {
+		icon = generic_civil_support
+		cost = 25
+		days_re_enable = 60
+
+		available = {
+			check_variable = { FLR_loyal_lords < 38 }
+		}
+
+		complete_effect = {
+			add_to_variable = { FLR_loyal_lords = 2 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	MGR_reconcile_with_cibal = {
+		icon = generic_political_discourse
+		cost = 75
+		fire_only_once = yes
+
+		available = {
+			check_variable = { FLR_loyal_lords < 38 }
+		}
+
+		complete_effect = {
+			add_to_variable = { FLR_loyal_lords = 5 }
+			FLR_update_lords = yes
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

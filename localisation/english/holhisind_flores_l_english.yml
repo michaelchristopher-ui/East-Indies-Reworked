@@ -60,7 +60,7 @@
  LRT_antonius_belantran_de_rosari:0 "Antonius Belantran de Rosari"
  LRT_antonius_belantran_de_rosari_desc:0 "Regent of Larantuka, governing in the name of the young Don Lorenzo III Diaz Vieira Godinho until the raja comes of age."
  LRT_lorenzo_iii:0 "Don Lorenzo III Diaz Vieira Godinho"
- LRT_lorenzo_iii_desc:0 "Raja of Larantuka of the House of Diaz Vieira Godinho, heir to the Catholic kingdom of East Flores. He married Dona Martina Kinena Ximenes da Silva Diaz Vieira de Godinho, and reigned until his death in 1982."
+ LRT_lorenzo_iii_desc:0 "Raja of Larantuka of the House of Diaz Vieira Godinho, heir to the Catholic kingdom of East Flores. He married Dona Martina Kinena Ximenes da Silva Diaz Vieira de Godinho in July 1938, and reigned until his death in 1982."
 
  LRT_raja_under_regency:0 "The Raja Under Regency"
  LRT_raja_under_regency_desc:0 "Our rightful raja, Don Lorenzo III Diaz Vieira Godinho, is not yet ready to rule. Until he takes the throne, Antonius Belantran de Rosari governs Larantuka as regent."
@@ -170,3 +170,7 @@
  flr_swapraja.2.t:0 "Don Paulus Becomes Raja of Sikka"
  flr_swapraja.2.d:0 "On 18 May 1954 Don Paulus Centis Ximenes da Silva was installed as Moang Ratu, Raja of Sikka, succeeding Don Thomas Ximenes da Silva. The Ten Sitting Lords gathered to witness the new raja take the throne."
  flr_swapraja.2.a:0 "Long live Moang Ratu Paulus!"
+
+ flr_swapraja.3.t:0 "The Wedding of Raja Lorenzo III"
+ flr_swapraja.3.d:0 "In July 1938 Don Lorenzo III Diaz Vieira Godinho married Dona Martina Kinena Ximenes da Silva Diaz Vieira de Godinho. The wedding was celebrated in the Catholic rite, and the rajas and lords of Flores sent their gifts."
+ flr_swapraja.3.a:0 "Long life to the raja and his queen!"

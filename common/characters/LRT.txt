@@ -16,6 +16,24 @@ characters = {
 			expire="1965.1.1.1"
 			id=-1
 		}
+		# Raja Kedua, the second king, once Lorenzo III takes the throne
+		advisor = {
+			slot = political_advisor
+			idea_token = LRT_antonius_belantran_de_rosari
+			allowed = {
+				original_tag = LRT
+			}
+			visible = {
+				has_country_flag = LRT_raja_kedua
+			}
+			traits = {
+				technocrat
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 
 	LRT_lorenzo_iii = {
@@ -33,6 +51,29 @@ characters = {
 			}
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+
+	LRT_dona_martina = {
+		name = LRT_dona_martina
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = LRT_dona_martina
+			allowed = {
+				original_tag = LRT
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 }

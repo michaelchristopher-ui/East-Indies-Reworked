@@ -16,4 +16,19 @@ characters = {
 			id=-1
 		}
 	}
+
+	MGR_constantinus_ngambut = {
+		name = MGR_constantinus_ngambut
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			desc = MGR_constantinus_ngambut_desc
+			ideology = despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

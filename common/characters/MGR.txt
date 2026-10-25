@@ -55,4 +55,28 @@ characters = {
 			}
 		}
 	}
+
+	MGR_keraeng_po = {
+		name = MGR_keraeng_po
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		# the King's Assistant
+		advisor = {
+			slot = political_advisor
+			idea_token = MGR_keraeng_po
+			allowed = {
+				original_tag = MGR
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 }

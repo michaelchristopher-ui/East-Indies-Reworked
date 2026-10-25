@@ -31,4 +31,28 @@ characters = {
 			id=-1
 		}
 	}
+
+	MGR_bagoeng = {
+		name = MGR_bagoeng
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		# Raja Emeritus and Raja Bicara, the chief minister under Baroek
+		advisor = {
+			slot = political_advisor
+			idea_token = MGR_bagoeng
+			allowed = {
+				original_tag = MGR
+			}
+			traits = {
+				technocrat
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 }

@@ -33,6 +33,7 @@ set_stability = 0.6
 set_war_support = 0.2
 
 recruit_character = MGR_alexander_baroek
+recruit_character = MGR_bagoeng
 
 # The 38 principalities, many of them recently equals of the raja
 set_variable = { FLR_total_lords = 38 }

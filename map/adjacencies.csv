@@ -33,12 +33,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4306;4608;sea;5666;-1;-1;-1;-1;;Soerbaja-Madura
 7654;4273;sea;2239;-1;-1;-1;-1;;Java-Bali
 7293;13385;sea;2239;-1;-1;-1;-1;;Bali-Lombok
-7293;13388;sea;2239;-1;-1;-1;-1;;Lombok-W.Nusa Tenggara
-13391;1298;sea;2124;-1;-1;-1;-1;;West Nusa Tenggara-East Nusa Tenggara
-13394;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
-13393;10219;sea;5414;-1;-1;-1;-1;;Lewoleba-Alor
-13393;12151;sea;5414;-1;-1;-1;-1;;Lewoleba-Larantuka
-12444;10222;sea;5515;-1;-1;-1;-1;;Sulawesi-Pulau Buton
+13387;13388;sea;2239;-1;-1;-1;-1;;Lombok-Sumbawa
+13391;1298;sea;2124;-1;-1;-1;-1;;Sumbawa-Flores
+12151;13393;sea;2124;-1;-1;-1;-1;;Flores-Lembata
+13393;10219;sea;5414;-1;-1;-1;-1;;Lembata-Alor
+13394;10219;sea;5414;-1;-1;-1;-1;;Alor-Wetar
+12444;10222;sea;5515;-1;-1;-1;-1;;Sulawesi-Buton
 1293;4269;sea;8751;-1;-1;-1;-1;;Surigao-Leyte
 1311;4228;sea;2856;-1;-1;-1;-1;;San Bernardino Strait
 4288;1221;sea;2876;-1;-1;-1;-1;;Mindoro-Batangas
@@ -137,7 +137,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
-2455;2431;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
+2455;2431;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Ã˜resund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 7452;7678;;-1;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
 2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;hormuz

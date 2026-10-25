@@ -16586,7 +16586,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_idea = INS_artilerie_inrichtingen
+					has_idea = INS_independence_mess_1
 				}
 				swap_ideas = {
 					remove_idea = INS_independence_mess_1

@@ -340,8 +340,8 @@ characters = {
 			allowed = {
 				OR = {
 					original_tag = INS
-					tag = ATJ
-					tag = SSI
+					original_tag = ATJ
+					original_tag = SSI
 				}
 			}
 			available = {
@@ -433,8 +433,13 @@ characters = {
 				NOT = {
 					has_government = fascism
 				}
-				NOT = {
-					has_idea = INS_tan_malaka_command
+				if = {
+					limit = {
+						has_completed_focus = INS_break_the_chains
+					}
+					NOT = {
+						has_idea = INS_tan_malaka_command
+					}
 				}
 				if = {
 					limit = {
@@ -487,6 +492,9 @@ characters = {
 			}
 			traits = {
 				army_guerilla_organizer_2
+			}
+			visible = {
+				has_completed_focus = INS_revive_spirit_1926
 			}
 			cost = 100
 			ai_will_do = {

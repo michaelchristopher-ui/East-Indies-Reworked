@@ -35,8 +35,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7293;13385;sea;2239;-1;-1;-1;-1;;Bali-Lombok
 13387;13388;sea;2239;-1;-1;-1;-1;;Lombok-Sumbawa
 13391;1298;sea;2124;-1;-1;-1;-1;;Sumbawa-Flores
-12151;13393;sea;2124;-1;-1;-1;-1;;Flores-Lembata
-13393;10219;sea;5414;-1;-1;-1;-1;;Lembata-Alor
+13418;10219;sea;5414;-1;-1;-1;-1;;Lembata-Alor
 13394;10219;sea;5414;-1;-1;-1;-1;;Alor-Wetar
 12444;10222;sea;5515;-1;-1;-1;-1;;Sulawesi-Buton
 1293;4269;sea;8751;-1;-1;-1;-1;;Surigao-Leyte

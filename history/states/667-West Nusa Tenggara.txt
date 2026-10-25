@@ -8,11 +8,7 @@ state={
 		add_core_of = EIS
 		victory_points = {
 			4301 2
-		}
-		victory_points = {
 			13391 1
-		}
-		victory_points = {
 			12234 1
 		}
 		buildings = {
@@ -27,9 +23,9 @@ state={
 	}
 
 	provinces={
-		1298 4301 10191 10219 12162 12219 12234 13384 13388 13389 13390 13391 13392 13394
+		1298 4301 10191 10219 12162 12219 12234 13384 13388 13389 13390 13391 13392 13393 13394
 	}
-	manpower=1157149
+	manpower=1197149
 	buildings_max_level_factor = 1.000
 	state_category = rural
 	local_supplies = 2.000

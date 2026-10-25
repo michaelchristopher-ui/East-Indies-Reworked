@@ -8,7 +8,7 @@ state={
 		add_core_of = EIS
 		add_core_of = LRT
 		victory_points = { # Larantuka
-			12151 1
+			13414 1
 		}
 		buildings = {
 			infrastructure = 1
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		12151 13393
+		13414 13415 13416 13417 13418 13419
 	}
-	manpower=120000
+	manpower=80000
 	buildings_max_level_factor = 1.000
 	state_category = small_island
 	local_supplies = 1.000

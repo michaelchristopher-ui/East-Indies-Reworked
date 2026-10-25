@@ -4634,7 +4634,7 @@ on_actions = {
 					}
 				}
 				set_victory_points = {
-					province = 12151
+					province = 13414
 					value = 5
 				}
 				POR = {

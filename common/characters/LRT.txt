@@ -76,4 +76,28 @@ characters = {
 			}
 		}
 	}
+
+	LRT_servus = {
+		name = LRT_servus
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		# Raja Emeritus, the elder statesman of the house
+		advisor = {
+			slot = political_advisor
+			idea_token = LRT_servus
+			allowed = {
+				original_tag = LRT
+			}
+			traits = {
+				compassionate_gentleman
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 }

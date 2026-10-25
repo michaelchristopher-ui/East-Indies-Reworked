@@ -34,6 +34,7 @@ set_stability = 0.6
 set_war_support = 0.2
 
 recruit_character = LRT_antonius_belantran_de_rosari
+recruit_character = LRT_servus
 
 # Demon Lewo Pulo: the ten kakang principalities. Their loyalty to the Diaz Vieira Godinho
 # is unanimous; the Dutch never managed to split an election

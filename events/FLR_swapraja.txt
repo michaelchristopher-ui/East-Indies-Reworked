@@ -166,8 +166,18 @@ country_event = { #Larantuka 1938 - Lorenzo III takes the throne
 
 	option = {
 		name = flr_swapraja.20.a
-		add_political_power = 25
-		add_stability = 0.02
+		# the nearer the holder is to the raja, the more the event matters
+		if = {
+			limit = { original_tag = NTT }
+			add_political_power = 15
+		}
+		else_if = {
+			limit = { original_tag = EIS }
+			add_political_power = 10
+		}
+		else = {
+			add_political_power = 5
+		}
 	}
 }
 
@@ -198,8 +208,18 @@ country_event = { #Larantuka 1938 - wedding of Lorenzo III
 
 	option = {
 		name = flr_swapraja.21.a
-		add_political_power = 25
-		add_stability = 0.02
+		# the nearer the holder is to the raja, the more the event matters
+		if = {
+			limit = { original_tag = NTT }
+			add_political_power = 15
+		}
+		else_if = {
+			limit = { original_tag = EIS }
+			add_political_power = 10
+		}
+		else = {
+			add_political_power = 5
+		}
 	}
 }
 
@@ -230,8 +250,18 @@ country_event = { #Manggarai 1949 - Constantinus Ngambut succeeds
 
 	option = {
 		name = flr_swapraja.22.a
-		add_political_power = 25
-		add_stability = 0.02
+		# the nearer the holder is to the raja, the more the event matters
+		if = {
+			limit = { original_tag = NTT }
+			add_political_power = 15
+		}
+		else_if = {
+			limit = { original_tag = EIS }
+			add_political_power = 10
+		}
+		else = {
+			add_political_power = 5
+		}
 	}
 }
 
@@ -262,7 +292,17 @@ country_event = { #Sikka 1954 - Don Paulus succeeds
 
 	option = {
 		name = flr_swapraja.23.a
-		add_political_power = 25
-		add_stability = 0.02
+		# the nearer the holder is to the raja, the more the event matters
+		if = {
+			limit = { original_tag = NTT }
+			add_political_power = 15
+		}
+		else_if = {
+			limit = { original_tag = EIS }
+			add_political_power = 10
+		}
+		else = {
+			add_political_power = 5
+		}
 	}
 }

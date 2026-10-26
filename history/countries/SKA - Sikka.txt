@@ -44,16 +44,6 @@ recruit_character = SKA_monjeru
 recruit_character = SKA_costa_de_ornay
 
 # The ten sitting principalities of Sikka
-set_country_flag = SKA_principality_buang_bali
-set_country_flag = SKA_principality_maget_ili
-set_country_flag = SKA_principality_mekeng
-set_country_flag = SKA_principality_soget
-set_country_flag = SKA_principality_keupung
-set_country_flag = SKA_principality_darabogar
-set_country_flag = SKA_principality_kei_timu
-set_country_flag = SKA_principality_kroa
-set_country_flag = SKA_principality_muhang
-set_country_flag = SKA_principality_wodong
 set_variable = { FLR_total_lords = 10 }
 set_variable = { FLR_loyal_lords = 10 }
 FLR_update_lords = yes

@@ -21,30 +21,6 @@ FLR_category_swapraja = {
 	}
 }
 
-LRT_category_demon_lewo_pulo = {
-	icon = generic_political_discourse
-
-	allowed = {
-		original_tag = LRT
-	}
-
-	priority = {
-		base = 10
-	}
-}
-
-SKA_category_ten_principalities = {
-	icon = generic_political_discourse
-
-	allowed = {
-		original_tag = SKA
-	}
-
-	priority = {
-		base = 10
-	}
-}
-
 MGR_category_the_38_principalities = {
 	icon = generic_political_discourse
 

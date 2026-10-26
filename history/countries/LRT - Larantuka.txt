@@ -38,16 +38,6 @@ recruit_character = LRT_servus
 
 # Demon Lewo Pulo: the ten kakang principalities. Their loyalty to the Diaz Vieira Godinho
 # is unanimous; the Dutch never managed to split an election
-set_country_flag = LRT_kakang_hadung
-set_country_flag = LRT_kakang_boleng
-set_country_flag = LRT_kakang_lamalera
-set_country_flag = LRT_kakang_horowura
-set_country_flag = LRT_kakang_wobo
-set_country_flag = LRT_kakang_mudakaputu
-set_country_flag = LRT_kakang_lewingo
-set_country_flag = LRT_kakang_lewotobi
-set_country_flag = LRT_kakang_pamakayo
-set_country_flag = LRT_kakang_lewolein
 set_variable = { FLR_total_lords = 10 }
 set_variable = { FLR_loyal_lords = 10 }
 FLR_update_lords = yes

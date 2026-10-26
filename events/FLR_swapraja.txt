@@ -135,6 +135,20 @@ country_event = { #Flores 10 - Rajas of unreleased kingdoms serve the Indies
 			FLR_move_servus_to_ntt = yes
 			FLR_move_thomas_to_ntt = yes
 			FLR_move_bagoeng_to_ntt = yes
+			NTT = {
+				add_country_leader_role = {
+					character = SKA_thomas_ximenes_da_silva
+					promote_leader = yes
+					country_leader = {
+						desc = SKA_thomas_ximenes_da_silva_desc
+						ideology = despotism
+						expire = "1965.1.1"
+						traits = {
+							SKA_heir_of_the_lusitanian_rajas
+						}
+					}
+				}
+			}
 		}
 		else = {
 			FLR_move_servus_to_ins = yes

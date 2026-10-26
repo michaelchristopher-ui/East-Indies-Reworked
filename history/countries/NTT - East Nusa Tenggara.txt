@@ -25,6 +25,9 @@ set_popularities = {
 
 add_ideas = {
 	ASEAN_agrarian_society_1
+	FLR_council_of_rajas
+	FLR_representative_council
+	FLR_regional_secretariat
 }
 
 set_convoys = 10

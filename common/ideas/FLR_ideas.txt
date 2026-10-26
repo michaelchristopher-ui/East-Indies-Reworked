@@ -64,5 +64,47 @@ ideas = {
 				political_power_gain = 0.01
 			}
 		}
+
+		FLR_council_of_rajas = {
+			allowed = {
+				original_tag = NTT
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+
+		FLR_representative_council = {
+			allowed = {
+				original_tag = NTT
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		FLR_regional_secretariat = {
+			allowed = {
+				original_tag = NTT
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
 	}
 }

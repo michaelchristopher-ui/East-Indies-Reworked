@@ -18,8 +18,8 @@
  LRT_democratic_party_long:0 "Democratis Bond Indonesia"
  LRT_communism_party:0 "PKI-NT"
  LRT_communism_party_long:0 "Partai Komunis Indonesia - Region Nusa Tenggara"
- LRT_fascism_party:0 "PERFOKAF"
- LRT_fascism_party_long:0 "Flores Catholic Political Association"
+ LRT_fascism_party:0 "Perkokaf"
+ LRT_fascism_party_long:0 "Persatuan Politik Katolik Flores"
 
  SKA_neutrality:0 "Kingdom of Sikka"
  SKA_neutrality_DEF:0 "the Kingdom of Sikka"
@@ -36,8 +36,8 @@
  SKA_democratic_party_long:0 "Democratis Bond Indonesia"
  SKA_communism_party:0 "PKI-NT"
  SKA_communism_party_long:0 "Partai Komunis Indonesia - Region Nusa Tenggara"
- SKA_fascism_party:0 "PERFOKAF"
- SKA_fascism_party_long:0 "Flores Catholic Political Association"
+ SKA_fascism_party:0 "Perkokaf"
+ SKA_fascism_party_long:0 "Persatuan Politik Katolik Flores"
 
  MGR_neutrality:0 "Kingdom of Manggarai"
  MGR_neutrality_DEF:0 "the Kingdom of Manggarai"
@@ -54,8 +54,8 @@
  MGR_democratic_party_long:0 "Democratis Bond Indonesia"
  MGR_communism_party:0 "PKI-NT"
  MGR_communism_party_long:0 "Partai Komunis Indonesia - Region Nusa Tenggara"
- MGR_fascism_party:0 "PERFOKAF"
- MGR_fascism_party_long:0 "Flores Catholic Political Association"
+ MGR_fascism_party:0 "Perkokaf"
+ MGR_fascism_party_long:0 "Persatuan Politik Katolik Flores"
 
  LRT_antonius_belantran_de_rosari:0 "Antonius Belantran de Rosari"
  LRT_antonius_belantran_de_rosari_desc:0 "Regent of Larantuka, governing in the name of the young Don Lorenzo III Diaz Vieira Godinho until the raja comes of age."
@@ -153,8 +153,8 @@
  NTT_democratic_party_long:0 "Democratis Bond Indonesia"
  NTT_communism_party:0 "PKI-NT"
  NTT_communism_party_long:0 "Partai Komunis Indonesia - Region Nusa Tenggara"
- NTT_fascism_party:0 "PERFOKAF"
- NTT_fascism_party_long:0 "Flores Catholic Political Association"
+ NTT_fascism_party:0 "Perkokaf"
+ NTT_fascism_party_long:0 "Persatuan Politik Katolik Flores"
  NTT_council_of_rajas:0 "Council of the Rajas"
  NTT_council_of_rajas_desc:0 "The federation is governed by its rajas together, and no one raja speaks for all of them."
 

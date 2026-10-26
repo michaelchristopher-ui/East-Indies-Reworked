@@ -26,6 +26,7 @@ set_popularities = {
 add_ideas = {
 	ASEAN_agrarian_society_1
 	FLR_catholic_state
+	SKA_ten_principalities
 }
 
 set_convoys = 5
@@ -44,7 +45,3 @@ recruit_character = SKA_monjeru
 recruit_character = SKA_costa_de_ornay
 
 # The ten sitting principalities of Sikka
-set_variable = { FLR_total_lords = 10 }
-set_variable = { FLR_loyal_lords = 10 }
-FLR_update_lords = yes
-add_dynamic_modifier = { modifier = SKA_ten_principalities }

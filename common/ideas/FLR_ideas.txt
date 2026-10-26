@@ -19,5 +19,50 @@ ideas = {
 				communism_drift = -0.02
 			}
 		}
+
+		LRT_demon_lewo_pulo = {
+			allowed = {
+				original_tag = LRT
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.15
+			}
+		}
+
+		SKA_ten_principalities = {
+			allowed = {
+				original_tag = SKA
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.15
+			}
+		}
+
+		MGR_the_38_principalities = {
+			allowed = {
+				original_tag = MGR
+			}
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.005
+				political_power_gain = 0.01
+			}
+		}
 	}
 }

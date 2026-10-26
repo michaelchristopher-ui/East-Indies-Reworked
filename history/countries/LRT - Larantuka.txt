@@ -26,6 +26,7 @@ set_popularities = {
 add_ideas = {
 	ASEAN_agrarian_society_1
 	FLR_catholic_state
+	LRT_demon_lewo_pulo
 	LRT_raja_under_regency
 }
 
@@ -38,7 +39,3 @@ recruit_character = LRT_servus
 
 # Demon Lewo Pulo: the ten kakang principalities. Their loyalty to the Diaz Vieira Godinho
 # is unanimous; the Dutch never managed to split an election
-set_variable = { FLR_total_lords = 10 }
-set_variable = { FLR_loyal_lords = 10 }
-FLR_update_lords = yes
-add_dynamic_modifier = { modifier = LRT_demon_lewo_pulo }

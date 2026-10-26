@@ -16,6 +16,46 @@ characters = {
 			expire="1965.1.1.1"
 			id=-1
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SKA_thomas_ximenes_da_silva
+			allowed = {
+				OR = {
+					original_tag = SKA
+					original_tag = INS
+					original_tag = EIS
+				}
+			}
+			traits = {
+				silent_workhorse
+			}
+			on_add = {
+				if = {
+					limit = {
+						OR = {
+							tag = INS
+							tag = EIS
+						}
+					}
+					1088 = {
+						add_dynamic_modifier = {
+							modifier = SKA_sikka_state_modifier
+						}
+					}
+				}
+			}
+			on_remove = {
+				1088 = {
+					remove_dynamic_modifier = {
+						modifier = SKA_sikka_state_modifier
+					}
+				}
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 
 	SKA_kapitang_moor = {

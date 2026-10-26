@@ -89,10 +89,36 @@ characters = {
 			slot = political_advisor
 			idea_token = LRT_servus
 			allowed = {
-				original_tag = LRT
+				OR = {
+					original_tag = LRT
+					original_tag = INS
+					original_tag = EIS
+				}
 			}
 			traits = {
 				compassionate_gentleman
+			}
+			on_add = {
+				if = {
+					limit = {
+						OR = {
+							tag = INS
+							tag = EIS
+						}
+					}
+					1087 = {
+						add_dynamic_modifier = {
+							modifier = LRT_larantuka_state_modifier
+						}
+					}
+				}
+			}
+			on_remove = {
+				1087 = {
+					remove_dynamic_modifier = {
+						modifier = LRT_larantuka_state_modifier
+					}
+				}
 			}
 			cost = 100
 			ai_will_do = {

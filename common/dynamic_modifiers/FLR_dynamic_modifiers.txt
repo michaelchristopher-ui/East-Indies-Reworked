@@ -1,0 +1,29 @@
+#	State modifiers for the Flores kingdoms, applied while their raja serves as an advisor
+
+LRT_larantuka_state_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifier_basic_development
+
+	recruitable_population_factor = 0.05
+	local_org_regain = 0.05
+	local_supplies = 0.05
+}
+
+SKA_sikka_state_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifier_basic_development
+
+	local_building_slots_factor = 0.1
+	state_production_speed_buildings_factor = 0.05
+}
+
+MGR_manggarai_state_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifier_basic_development
+
+	recruitable_population_factor = 0.05
+	army_defence_factor = 0.1
+}

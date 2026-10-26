@@ -132,3 +132,8 @@
 
  MGR_keraeng_po:0 "Keraeng Po"
  MGR_keraeng_po_desc:0 "The King's Assistant, who handles the raja's business at Ruteng alongside Raja Bicara Bagoeng."
+
+ LRT_larantuka_state_modifier:0 "Raja of Larantuka at Court"
+ SKA_sikka_state_modifier:0 "Raja of Sikka at Court"
+ MGR_manggarai_state_modifier:0 "Raja Bicara of Manggarai at Court"
+ flr_swapraja.10.a:0 "OK"

@@ -44,10 +44,36 @@ characters = {
 			slot = political_advisor
 			idea_token = MGR_bagoeng
 			allowed = {
-				original_tag = MGR
+				OR = {
+					original_tag = MGR
+					original_tag = INS
+					original_tag = EIS
+				}
 			}
 			traits = {
 				technocrat
+			}
+			on_add = {
+				if = {
+					limit = {
+						OR = {
+							tag = INS
+							tag = EIS
+						}
+					}
+					1089 = {
+						add_dynamic_modifier = {
+							modifier = MGR_manggarai_state_modifier
+						}
+					}
+				}
+			}
+			on_remove = {
+				1089 = {
+					remove_dynamic_modifier = {
+						modifier = MGR_manggarai_state_modifier
+					}
+				}
 			}
 			cost = 100
 			ai_will_do = {

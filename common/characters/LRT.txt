@@ -93,6 +93,7 @@ characters = {
 					original_tag = LRT
 					original_tag = INS
 					original_tag = EIS
+					original_tag = NTT
 				}
 			}
 			traits = {
@@ -104,6 +105,7 @@ characters = {
 						OR = {
 							tag = INS
 							tag = EIS
+							tag = NTT
 						}
 					}
 					1087 = {

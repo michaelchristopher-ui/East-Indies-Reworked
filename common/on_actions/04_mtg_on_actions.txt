@@ -3809,9 +3809,7 @@ on_actions = {
 					release = WPG
 					release = TNE
 					release = MLK
-					release = LRT
-					release = SKA
-					release = MGR
+					release = NTT
 					release = TML
 					release = JVA
 					release = EIS
@@ -3821,6 +3819,13 @@ on_actions = {
 					release = SSI
 					release = KUT
 					release = POK
+					# East Nusa Tenggara sits under Lesser Sunda, which is independent here
+					EIS = {
+						set_autonomy = {
+							target = NTT
+							autonomous_state = autonomy_supervised_state
+						}
+					}
 					remove_ideas = INS_dutch_nationalism
 					remove_ideas = INS_princely_states_normal
 					remove_ideas = INS_reforms

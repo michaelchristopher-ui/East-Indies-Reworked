@@ -41,3 +41,45 @@ FLR_move_bagoeng_to_ins = {
 		}
 	}
 }
+
+FLR_move_servus_to_ntt = {
+	every_possible_country = {
+		limit = {
+			has_character = LRT_servus
+		}
+		random_character = {
+			limit = {
+				is_character = LRT_servus
+			}
+			set_nationality = NTT
+		}
+	}
+}
+
+FLR_move_thomas_to_ntt = {
+	every_possible_country = {
+		limit = {
+			has_character = SKA_thomas_ximenes_da_silva
+		}
+		random_character = {
+			limit = {
+				is_character = SKA_thomas_ximenes_da_silva
+			}
+			set_nationality = NTT
+		}
+	}
+}
+
+FLR_move_bagoeng_to_ntt = {
+	every_possible_country = {
+		limit = {
+			has_character = MGR_bagoeng
+		}
+		random_character = {
+			limit = {
+				is_character = MGR_bagoeng
+			}
+			set_nationality = NTT
+		}
+	}
+}

@@ -7428,24 +7428,9 @@ focus_tree = {
 			
 			custom_effect_tooltip = generic_skip_one_line_tt
 			INS = {
-				release = LRT
-				release = SKA
-				release = MGR
 				release = EIS
 				release = MLK
 				release = WPG
-			}
-			set_autonomy = {
-				target = LRT
-				autonomous_state = autonomy_supervised_state
-			}
-			set_autonomy = {
-				target = SKA
-				autonomous_state = autonomy_supervised_state
-			}
-			set_autonomy = {
-				target = MGR
-				autonomous_state = autonomy_supervised_state
 			}
 			set_autonomy = {
 				target = EIS
@@ -15539,9 +15524,6 @@ focus_tree = {
 			INS = {
 				release = TML
 				release = MNH
-				release = LRT
-				release = SKA
-				release = MGR
 				release = EIS
 				release = MLK
 				release = WPG
@@ -15552,18 +15534,6 @@ focus_tree = {
 			}
 			set_autonomy = {
 				target = MNH
-				autonomy_state = autonomy_dominion
-			}
-			set_autonomy = {
-				target = LRT
-				autonomy_state = autonomy_dominion
-			}
-			set_autonomy = {
-				target = SKA
-				autonomy_state = autonomy_dominion
-			}
-			set_autonomy = {
-				target = MGR
 				autonomy_state = autonomy_dominion
 			}
 			set_autonomy = {

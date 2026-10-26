@@ -110,3 +110,34 @@ country_event = { #Manggarai 1 - Constantinus Ngambut succeeds
 		retire_character = MGR_alexander_baroek
 	}
 }
+
+country_event = { #Flores 10 - Rajas of unreleased kingdoms serve the Indies
+	id = flr_swapraja.10
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { country_exists = LRT }
+			}
+			FLR_move_servus_to_ins = yes
+		}
+		if = {
+			limit = {
+				NOT = { country_exists = SKA }
+			}
+			FLR_move_thomas_to_ins = yes
+		}
+		if = {
+			limit = {
+				NOT = { country_exists = MGR }
+			}
+			FLR_move_bagoeng_to_ins = yes
+		}
+	}
+
+	option = {
+		name = flr_swapraja.10.a
+	}
+}

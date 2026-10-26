@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# after the start-of-game releases, so unreleased kingdoms can be told apart
+			if = {
+				limit = {
+					country_exists = INS
+				}
+				INS = {
+					country_event = {
+						id = flr_swapraja.10
+						days = 2
+					}
+				}
+			}
+		}
+	}
+}

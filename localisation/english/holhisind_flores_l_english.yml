@@ -73,17 +73,7 @@
  SKA_thomas_ximenes_da_silva_desc:0 "Moang Ratu, Raja of Sikka. He sits at the head of the Ten Sitting Lords and their moang principalities."
  MGR_alexander_baroek:0 "Alexander Baroek"
 
- autonomy_federal_member:0 "Federated Swapraja"
- autonomy_federal_member_desc:0 "A self-governing native kingdom bound to its overlord by the Korte Verklaring. It keeps its raja and its own administration, but cannot go to war on its own."
 
- FLR_category_swapraja:0 "Swapraja of Nusa Tenggara Timur"
- FLR_category_swapraja_desc:0 "The rajas of Flores rule under the Korte Verklaring. We may recognise their kingdoms as federated members in their own right."
- FLR_recognise_larantuka:0 "Recognise the Kingdom of Larantuka"
- FLR_recognise_larantuka_desc:0 "Release Larantuka as a Federated Swapraja, governed by the regent Antonius Belantran de Rosari in the name of the young Don Lorenzo III."
- FLR_recognise_sikka:0 "Recognise the Kingdom of Sikka"
- FLR_recognise_sikka_desc:0 "Release Sikka as a Federated Swapraja under Moang Ratu, Raja Don Thomas Ximenes da Silva."
- FLR_recognise_manggarai:0 "Recognise the Kingdom of Manggarai"
- FLR_recognise_manggarai_desc:0 "Release Manggarai as a Federated Swapraja under Raja Alexander Baroek."
 
  LRT_regent_of_reinha_rosari:0 "Regent of the Reinha Rosari"
  LRT_regent_of_reinha_rosari_desc:0 "He rules in the young raja's name, not his own. The court stays loyal, but little gets done."

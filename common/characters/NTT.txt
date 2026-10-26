@@ -1,0 +1,21 @@
+characters = {
+
+	NTT_council_of_rajas = {
+		name = NTT_council_of_rajas
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		# the federation is governed by its rajas together
+		country_leader = {
+			desc = NTT_council_of_rajas_desc
+			ideology = despotism
+			traits = {
+				divided_interests
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

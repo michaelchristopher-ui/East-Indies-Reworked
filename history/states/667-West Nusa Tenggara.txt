@@ -6,6 +6,7 @@ state={
 		owner = INS
 		add_core_of = INS
 		add_core_of = EIS
+		add_core_of = NTT
 		victory_points = {
 			4301 2
 			13391 1

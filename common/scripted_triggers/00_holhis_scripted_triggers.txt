@@ -42,6 +42,7 @@ INS_is_indonesian_state = {
 		original_tag = LRT
 		original_tag = SKA
 		original_tag = MGR
+		original_tag = NTT
 		original_tag = WPG
 		original_tag = TML
 	}
@@ -151,6 +152,7 @@ is_asean_state = {
 		original_tag = LRT
 		original_tag = SKA
 		original_tag = MGR
+		original_tag = NTT
 		original_tag = TML
 		original_tag = SLU
 		original_tag = FOR
@@ -269,6 +271,7 @@ is_southwest_pacific_state = {
 		original_tag = LRT
 		original_tag = SKA
 		original_tag = MGR
+		original_tag = NTT
 		original_tag = TML
 		original_tag = SLU
 	}
@@ -525,5 +528,6 @@ is_catholic_nation = {
 		original_tag = LRT
 		original_tag = SKA
 		original_tag = MGR
+		original_tag = NTT
 	}
 }

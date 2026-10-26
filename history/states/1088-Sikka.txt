@@ -6,6 +6,7 @@ state={
 		owner = INS
 		add_core_of = INS
 		add_core_of = EIS
+		add_core_of = NTT
 		add_core_of = SKA
 		victory_points = { # Maumere
 			7321 1

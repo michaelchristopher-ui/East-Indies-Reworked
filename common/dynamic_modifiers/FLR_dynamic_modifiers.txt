@@ -27,3 +27,12 @@ MGR_manggarai_state_modifier = { #State Modifier
 	recruitable_population_factor = 0.05
 	army_defence_factor = 0.1
 }
+
+FLR_federation_chair_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifier_basic_development
+
+	local_building_slots_factor = 0.05
+	recruitable_population_factor = 0.03
+}

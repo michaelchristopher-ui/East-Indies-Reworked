@@ -117,6 +117,17 @@ country_event = { #Flores 10 - Rajas of unreleased kingdoms serve the Indies
 	is_triggered_only = yes
 
 	immediate = {
+		# Don Thomas of Sikka holds the chair first; it passes on every five years
+		set_global_flag = FEF_chair_sikka
+		1088 = {
+			add_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		country_event = {
+			id = flr_swapraja.30
+			days = 1826
+		}
 		if = {
 			limit = {
 				country_exists = NTT
@@ -304,5 +315,106 @@ country_event = { #Sikka 1954 - Don Paulus succeeds
 		else = {
 			add_political_power = 5
 		}
+	}
+}
+
+#	Rotating chair of the Flores Eiland Federatie, five years a term like the Yang di-Pertuan Agong
+
+country_event = { #Federation chair passes from sikka to larantuka
+	id = flr_swapraja.30
+	title = flr_swapraja.30.t
+	desc = flr_swapraja.30.d
+
+	picture = GFX_report_event_generic_sign_treaty
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_global_flag = FEF_chair_sikka
+		set_global_flag = FEF_chair_larantuka
+		1088 = {
+			remove_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		1087 = {
+			add_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		country_event = {
+			id = flr_swapraja.31
+			days = 1826
+		}
+	}
+
+	option = {
+		name = flr_swapraja.30.a
+	}
+}
+
+country_event = { #Federation chair passes from larantuka to manggarai
+	id = flr_swapraja.31
+	title = flr_swapraja.31.t
+	desc = flr_swapraja.31.d
+
+	picture = GFX_report_event_generic_sign_treaty
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_global_flag = FEF_chair_larantuka
+		set_global_flag = FEF_chair_manggarai
+		1087 = {
+			remove_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		1089 = {
+			add_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		country_event = {
+			id = flr_swapraja.32
+			days = 1826
+		}
+	}
+
+	option = {
+		name = flr_swapraja.31.a
+	}
+}
+
+country_event = { #Federation chair passes from manggarai to sikka
+	id = flr_swapraja.32
+	title = flr_swapraja.32.t
+	desc = flr_swapraja.32.d
+
+	picture = GFX_report_event_generic_sign_treaty
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_global_flag = FEF_chair_manggarai
+		set_global_flag = FEF_chair_sikka
+		1089 = {
+			remove_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		1088 = {
+			add_dynamic_modifier = {
+				modifier = FLR_federation_chair_modifier
+			}
+		}
+		country_event = {
+			id = flr_swapraja.30
+			days = 1826
+		}
+	}
+
+	option = {
+		name = flr_swapraja.32.a
 	}
 }

@@ -170,3 +170,16 @@
  flr_swapraja.23.t:0 "Don Paulus Becomes Raja of Sikka"
  flr_swapraja.23.d:0 "On 18 May 1954 Don Paulus Centis Ximenes da Silva was installed as Moang Ratu, Raja of Sikka, succeeding Don Thomas Ximenes da Silva. The Ten Sitting Lords gathered to witness the new raja take the throne."
  flr_swapraja.23.a:0 "Long live Moang Ratu Paulus!"
+
+ FLR_federation_chair_modifier:0 "Chair of the Flores Eiland Federatie"
+ FLR_federation_chair_modifier_desc:0 "The raja of this kingdom holds the chair of the federation for a five-year term, and the chair rotates among the rajas."
+
+ flr_swapraja.30.t:0 "The Chair Passes to Larantuka"
+ flr_swapraja.30.d:0 "Don Thomas of Sikka has served his five-year term at the head of the Flores Eiland Federatie. By the rotation of the rajas, the chair now passes to the raja of Larantuka."
+ flr_swapraja.30.a:0 "The rajas rotate in order."
+ flr_swapraja.31.t:0 "The Chair Passes to Manggarai"
+ flr_swapraja.31.d:0 "The raja of Larantuka has completed his five-year term at the head of the Flores Eiland Federatie. The chair now passes to the king of Manggarai."
+ flr_swapraja.31.a:0 "The rajas rotate in order."
+ flr_swapraja.32.t:0 "The Chair Returns to Sikka"
+ flr_swapraja.32.d:0 "The king of Manggarai has completed his five-year term at the head of the Flores Eiland Federatie. The chair returns to the raja of Sikka, and the rotation begins again."
+ flr_swapraja.32.a:0 "The rajas rotate in order."

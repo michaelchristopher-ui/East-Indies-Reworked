@@ -276,6 +276,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_indonesia_ali_sastroamijoyo"
+		texturefile = "gfx/ideas/INS/idea_ins_ali_sastroamijoyo.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_indonesia_alimin"
 		texturefile = "gfx/ideas/INS/idea_ins_alimin.dds"
 	}
@@ -973,6 +978,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_maluku_manusama"
 		texturefile = "gfx/ideas/MLK/idea_mlk_manusama.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_maluku_sangaji"
+		texturefile = "gfx/ideas/MLK/idea_mlk_sangaji.dds"
 	}
 
 	spriteType = {

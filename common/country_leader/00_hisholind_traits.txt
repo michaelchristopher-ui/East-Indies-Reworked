@@ -640,13 +640,13 @@ leader_traits = {
 	
 	jamu_advocate = { #Sardjito
 		sprite = 6
-		army_strength_factor = 0.02
+		army_strength_factor = 0.03
 		org_loss_at_low_org_factor = -0.1
 		land_reinforce_rate = 0.02
 		attrition = -0.01
 		casualty_trickleback = 0.01
 		
-		command_cap_increase = 10
+		command_cap_increase = 5
 	}
 
 	justice_official = { #Nicolaas Blom
